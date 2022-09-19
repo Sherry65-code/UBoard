@@ -1,0 +1,59 @@
+.pos6{
+    background: url('../images/eraser.png');
+    padding: 20px;
+    border: none;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+body{
+    background-color: #161616;
+}
+.pos3{
+    position: absolute;
+    border: none;
+    height: 0px;
+    width: 30%;
+    padding: 20px 0px;
+    right: 100px;
+    bottom: 20px;
+    border-radius: 8px;
+    text-align: center;
+    overflow-x: hidden;
+    outline: none;
+    background-color: #2e2e2e;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+
+}
+*{
+    overflow: hidden;
+    cursor:url('../images/pencil.cur'), default;
+}
+.pos1{
+    background-color: #16161600;
+    border: none;
+    cursor:url('../images/pencil.cur'), default;
+    outline: none;
+
+}
+#splash{
+    background-color: black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 200;
+    background-image: url('../images/logo.png');
+    background-size: 50px;
+    background-repeat: no-repeat;
+    transition: all ease-in-out 0.5s;
+    background-position: center;
+}
